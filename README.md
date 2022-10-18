@@ -2,7 +2,7 @@
 
 ## Repro
 
-This should install cleanly with pnpm@6 and fail with pnpm@7 with an error like this:
+Running `pnpm install` should fail with pnpm@7 with an error like this:
 
 ```
 /Volumes/git/walkerburgin/pnpm7-readpackage-delete-repro/packages/foo-app:
