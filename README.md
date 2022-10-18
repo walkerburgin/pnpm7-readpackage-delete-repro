@@ -27,7 +27,7 @@ pnpm: Cannot read properties of undefined (reading 'startsWith')
 
 See `.pnpmfile.cjs`: 
 
-```
+```js
 function readPackage(pkg) {
   if (pkg.name === "@blueprintjs/core" && pkg.version === "1.40.0") {
       // In later versions of Blueprint this moved from a peer dependency to a direct dependency
@@ -48,7 +48,7 @@ module.exports = {
 
 This logs out:
 
-```json
+```js
  {
   name: '@blueprintjs/core',
   version: '1.40.0',
